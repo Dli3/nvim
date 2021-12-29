@@ -25,6 +25,8 @@ Plug 'HerringtonDarkholme/yats.vim' " TS Syntax
 
 Plug 'liuchengxu/vim-which-key'
 
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 Plug 'justinmk/vim-sneak'
 
