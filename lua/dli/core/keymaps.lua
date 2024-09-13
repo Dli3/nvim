@@ -30,6 +30,7 @@ keymap.set("n", "<leader>t2", "<cmd>tabn 2<CR>", { desc = "Switches to buffer 2"
 keymap.set("n", "<leader>t3", "<cmd>tabn 3<CR>", { desc = "Switches to buffer 3" }) -- switches to buffer 3
 keymap.set("n", "<leader>t4", "<cmd>tabn 4<CR>", { desc = "Switches to buffer 4" }) -- switches to buffer 4
 
+-- Working with lines
 keymap.set("n", "<A-Up>", ":m -2 <Enter>", { desc = "Moves current line up" }) -- moves line up
 keymap.set("n", "<A-Down>", ":m +1 <Enter>", { desc = "Moves current line down" }) -- moves line down
 
